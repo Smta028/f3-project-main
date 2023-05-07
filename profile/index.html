@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../combine.css">
+  </head>
+  <body>
+    <header class="header">
+      <li><a href="">MeShop.</a></li>
+      <ul class="rightContent">
+        <li><a href="./index.html">Home</a></li>
+        <!-- <li><a href="./login/index.html">Login</a></li>
+        <li><a href="./signup/index.html">Signup</a></li> -->
+        <li><a href="" id="cart">My Cart</a></li>
+        <li><a href="">Profile</a></li>
+      </ul>
+    </header>
+   <div class="mainContainer">
+      <h1>My Profile</h1>
+      <form action="" id="profileForm">
+        <input type="text" placeholder="First Name" id="firstName">
+        <br>
+        <input type="text" placeholder="Last Name" id="lastName">
+        <br>
+        <div class="error"></div>
+       <button type="submit" id="infoBtn">Save Info</button>
+      </form>
+      <h1>Edit Password</h1>
+      <form action="" id="editPassForm">
+        <input type="password" placeholder="Old Password" id="oldPass">
+        <br>
+        <input type="password" placeholder="New Password" id="newPass">
+        <br>
+        <input type="password" placeholder=" Confirm New Password" id="confirNewPass">
+        <br>
+        <button type="submit" id="changePassBtn">Change Password</button>
+        <br>
+        <button type="submit" id="logoutBtn">Logout</button>
+      </form>
+   </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+/* Write styles here */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: #000000;
+    color:#FFFFFF;
+    
+}
+.rightContent{
+    display: flex;
+    gap:30px;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.MeShop{
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.para{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.btns{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.login{
+    padding: 15px 60px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.signup{
+    padding: 15px 60px;
+    background-color:#FFFFFF ;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+   
+}
+.signup-a{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.img{
+    text-align: end;
+}
+.bodyContent{
+   padding-left: 20px;
+}

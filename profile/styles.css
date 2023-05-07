@@ -1,0 +1,61 @@
+/* Write your styles here */
+.navbar{
+    background-color: #000000;
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+#profileForm{
+    width: 100%;
+}
+#profileForm input{
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+#editPassForm{
+    width: 100%;
+}
+#editPassForm input{
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+#infoBtn{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #000000;
+    padding: 13px 70px;
+}
+#changePassBtn{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #000000;
+    padding: 13px;
+    margin-bottom: 27px;
+}
+#logoutBtn{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffff;
+    background-color: #000000;
+    padding: 13px 75px;
+}
+.mainContainer{
+    margin: 40px 50px;
+}
